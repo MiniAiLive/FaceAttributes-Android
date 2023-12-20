@@ -1,0 +1,172 @@
+<resources>
+    <!--app name-->
+    <string name="app_name">MiniAI-FaceAttribute</string>
+
+    <!--settings、choose function page-->
+    <string name="page_preview">face attributes detect(video)</string>
+    <string name="page_ir_preview">ir liveness detect(video)</string>
+    <string name="page_face_recognize">face compare 1:n(video vs database,rgb liveness detect)</string>
+    <string name="page_ir_face_recognize">face compare 1:n(video vs database,ir liveness detect)</string>
+    <string name="page_single_image">face attributes detect(image)</string>
+    <string name="page_multi_image">face compare 1:n(image vs image)</string>
+    <string name="page_face_manage">face manage</string>
+    <string name="get_device_finger_failed">get device finger failed, code is: %d</string>
+    <string name="choose_detect_degree">choose video-mode detect degree</string>
+    <string name="copy_device_fingerprint">copy device fingerprint</string>
+    <string name="device_fingerprint_copied">device fingerprint：：\n%s\n copied</string>
+    <string name="active_engine">active engine</string>
+    <string name="active_success">active success</string>
+    <string name="already_activated">already activated</string>
+    <string name="active_failed">active failed,code is %d</string>
+    <string name="library_not_found">library not found, please check if you put .so files into the project directory app\\src\\main\\jniLibs</string>
+    <string name="ft_op_0">only detect 0 degree in video mode</string>
+    <string name="ft_op_90">only detect 90 degree in video mode</string>
+    <string name="ft_op_180">only detect 180 degree in video mode</string>
+    <string name="ft_op_270">only detect 270 degree in video mode</string>
+    <string name="ft_op_all">detect all degrees in video mode</string>
+
+    <!--face attributes detect(image) page-->
+    <string name="start_process">process</string>
+    <string name="choose_local_image">choose local image</string>
+    <string name="processing">processing</string>
+
+    <!--face compare 1:n(image vs image) page-->
+    <string name="choose_main_image">choose main image</string>
+    <string name="add_item_image">add item image</string>
+    <string name="notice_choose_main_img">please choose main image first</string>
+    <string name="compare_failed">compare failed!code is %d</string>
+
+    <!--global get picture failed notification-->
+    <string name="get_picture_failed">failed to get picture!</string>
+
+    <!--global permission denied notification-->
+    <string name="permission_denied">permission denied!</string>
+
+    <!--global init failed notification-->
+    <string name="init_failed">init failed,code is %d</string>
+    <string name="engine_not_initialized">engine not initialized! code is %d</string>
+
+    <!--single/dual camera register&recognize page-->
+    <string name="register">register</string>
+    <string name="switch_camera">switch camera</string>
+    <string name="switch_camera_failed">switch camera failed</string>
+    <string name="notice_change_detect_degree">camera switched, if no face detected, please change face detect degree in homepage</string>
+    <string name="recognize_failed_notice">DENIED:%s</string>
+    <string name="recognize_success_notice">PASS:%s</string>
+    <string name="low_confidence_level">face low confidence level</string>
+    <string name="specific_engine_init_failed">%s init failed, code is:%d</string>
+    <string name="liveness_detect">liveness detect</string>
+    <string name="camera_rgb">RGB CAMERA</string>
+    <string name="camera_ir">IR CAMERA</string>
+    <string name="camera_rgb_preview_size">RGB CAMERA\n%dx%d</string>
+    <string name="camera_ir_preview_size">IR CAMERA\n%dx%d</string>
+    <string name="camera_error_notice">\npossible reason:open two cameras at the same time is not allowed on this device</string>
+    <string name="draw_ir_rect_mirror_horizontal">draw IR face rect mirror horizontal</string>
+    <string name="draw_ir_rect_mirror_vertical">draw IR face rect mirror vertical</string>
+
+    <!--batch process dialog-->
+    <string name="progress_dialog_batch_register">progress: %d / %d</string>
+    <string name="progress_dialog_registering_please_wait">registering,please wait</string>
+
+    <!--batch process-->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="batch_process_notification_register">please put the images that need to register into directory \nsdcard/arcfacedemo/register</string>
+    <string name="batch_process_no_face_need_to_delete">no face need to delete</string>
+    <string name="batch_process_confirm_delete">delete those %d images and face features?</string>
+    <string name="batch_process_batch_register">batch register</string>
+    <string name="batch_process_notification">notification</string>
+    <string name="batch_process_clear_faces">clear faces</string>
+    <string name="batch_process_path_is_not_exists">path \n%s\n is not exists</string>
+    <string name="batch_process_path_is_not_dir">path \n%s\n is not a directory</string>
+    <string name="batch_process_processing_please_wait">process start,please wait</string>
+    <string name="batch_process_finished_info">process finished!\ntotal count =  %d \nsuccess count = %d \nfailed count = %d \nfailed images are in directory \' %s \'</string>
+
+    <string name="app_permission_detail">
+        <b>隐私政策</b>
+        \n
+\n虹软（南京）多媒体技术有限公司及其关联公司（以下统称“我们”），一直以来都非常重视平台服务中用户个人信息的保护和隐私权保护。我们深知个人信息对您（指经有效注册申请并经认证通过后，在虹软视觉开放平台提交申请使用虹软南京提供的SDK下载服务的具有民事行为能力的个人、法人或其他组织）的重要性，我们会尽全力保护您的个人信息安全。您在浏览访问我们网站或注册登录使用我们任何产品和服务时，我们将按行业安全标准采取最为审慎的态度来保护您的个人信息。
+        \n
+\n<b>我们希望通过本《隐私政策》向您说明，在您使用我们的网站、产品和服务时，我们如何收集、使用、储存和共享这些信息，以及我们为您提供的访问、更新、控制和保护这些信息的方式及渠道。本隐私政策（“隐私政策”）仅适用于我们提供的各项产品和服务，包括但不仅限于网站、SDK、产品文档、Demo示例等，并不适用于第三方通过我们提供的产品和服务，或者我们网站上第三方链接所指向的产品和服务。因此特别提醒您认真阅读和了解第三方的隐私政策。访问我们网站或使用我们的服务，表示您已阅读、知悉和同意接受本隐私政策。本政策在您使用网站和产品/服务的过程中持续有效，若您不同意本政策，您应立即停止使用我们网站及产品/服务。</b>
+\n
+\n<b>该产品涉及的权限以及用途范围如下：</b>
+\n（1）READ_PHONE_STATE：读取设备IMEI、硬件序列号、Android ID、MAC地址与激活权限进行匹配。
+\n（2）CAMERA：获取摄像头使用权限以拍照进行人脸比对。
+\n（3）INTERNET：获取网络权限以便设备进行联网功能激活。
+\n（4）READ_EXTERNAL_STORAGE：获取设备读取权限，读取激活文件。
+\n（5）WRITE_EXTERNAL_STORAGE：获取设备存储权限，存储激活文件。
+\n
+\n<b>1、信息收集</b>
+\n1.1 我们接收并存储您在使用网站、产品和服务中提供的个人信息。
+\n个人信息指以电子或其他方式记录的能够单独或与其他信息结合识别特定自然人身份或反应特定自然人活动情况的各种信息。包括如下信息：
+\n①您在平台注册时需要提供用以创建账户的信息（姓名/公司名称、电子邮箱、手机号码和密码），及当您后续与我们联系并持续使用产品/服务时，我们可能会要求提供更多的联系信息，包括联系人通讯地址、电话号码、企业信息。
+\n②您在激活集成我们提供的SDK产品后收集的终端用户的个人信息（IMEI、硬件序列号、Android ID、MAC地址及用于人脸检测、人脸验证、人脸搜索的人脸信息）。为实现保护终端用户的个人信息，我们提供的存储模块将以加密形式将其发送至我们的服务器上，您可以在系统文件内查看和管理。
+\n<b>特别提醒：上述信息，我们仅用于您激活SDK产品，追溯终端用户个人信息泄露依据。若您利用我们的产品/服务从您的终端用户收集更多的个人信息，您应遵守法律法规在您的隐私政策对此进行披露和获得终端用户的授权。</b>
+\n1.2 第三方信息的来源与收集。
+\n我们可能从公开渠道来源收集关于您的信息（在法律允许的范围内），并可能将其与从您处收到的或与您有关的其他信息结合使用。如果我们将该等信息与从您处收到的个人信息结合使用，则在结合使用期间，该等信息将被视为个人信息。
+\n
+\n<b>2、信息使用</b>
+\n我们可能会在以下几个与业务相关的方面使用您在本服务中提供的或我们收集的信息，包括：
+\n② 改进虹软南京的产品和服务，并用于开发新的产品和服务；
+\n② 管理您的帐户，包括订阅的产品和服务时。除非事先获得您的授权或本声明另有规定外，不会将这些信息对外公开或向第三方提供（虹软南京关联公司除外）；
+\n③ 处理和回复您的问题和意见；
+\n④ 向您发送更新和实时信息；
+\n⑤ 为您提供您可能感兴趣的选定的产品和服务的信息；
+\n⑥ 征求你的信息和反馈时，包括通过调研和问卷调查等方式；
+\n⑦ 执行业务分析，或者是关于改善我们的业务质量、网站、SDK\API以及提供的服务等的其他用途；
+\n⑧ 帮助我们有效地管理网站内容，以预防我们的产品/服务不被滥用和追溯终端用户个人信息泄露依据，并提供软件认证或管理软件升级；
+\n⑨ 使用您的信息以预防、发现、调查欺诈、危害安全、非法或违反我们或关联公司协议、政策或规则的行为，以保护您、其他用户或我们及关联公司的合法权益；
+\n⑩ 对产品及服务的使用情况进行统计。同时，虹软南京及关联公司可能会对公众共享这些统计信息，以展示我们服务的整体使用趋势。这些统计信息不会包括您的任何身份识别信息；
+\n⑪ 其它为了让您有更好的体验、改善我们的服务或您同意的用途，在符合法律相关规定的前提下，我们可能将通过某一项服务所收集的信息，以汇集信息或者个性化的方式，用于我们的其他服务。
+        \n
+\n<b>3、信息披露</b>
+\n我们可能在以下几种限制情况下共享您的个人信息，包括：
+\n① 获得我们授权的以代表我们执行某些功能或提供某些服务的服务提供商（仅当我们确知该等服务提供商不会拥有和泄露您的个人信息时）；
+\n② 因行政机关要求，司法命令或其他法律程序，或建立或行使我们的法律权利或对法律索赔作出辩护；
+\n③ 当我们认为有必要对非法活动、涉嫌欺诈的活动、以及为法律索赔的辩护活动或法律要求的其他活动进行调查、预防、或采取行动时；
+\n④ 需要提供信息以保护或捍卫虹软南京及关联公司网站或他人的权利或财产以及公众安全时；
+\n⑤ 需要就一项公司交易（如剥离、并购、合并或资产出售）共享信息；
+\n⑥ 其它在得到您的同意时（例如，如果我们让订阅用户与其他用户共享他们已经购买的内容）。
+        \n
+\n<b>4、信息的访问渠道</b>
+\n您可以通过登录账号自行访问您的个人信息，法律法规规定的除外。您可以通过给我们发送邮件以更新、更改、或要求我们删除您的个人信息。
+        \n
+\n<b>5、信息安全</b>
+\n5.1 我们仅在您使用我们产品及服务期间和法律法规要求的时限内保留您的个人信息。
+\n在使用我们的服务进行信息发布时，您可能要向对方披露自己的个人信息，如联络方式或者邮政地址。请您妥善保护自己的个人信息，仅在有必要的情形下向他人提供。如您发现自己的个人信息泄密，尤其是账户及密码发生泄漏，请您立即联系我们以便采取相应措施。
+\n我们已采取了符合惯例的安全措施以保护您提供给我们的个人信息。然而，没有一种传输或存储电子数据的方法是完全安全的，我们无法保证该等信息永远不会以违反本隐私政策的方式被访问、使用或发布。
+\n在提供服务过程中，我们可能通过搜索技术、社交网络、公开数据库等方式获得公开的人脸信息，及通过您提交的数据获得非公开的人脸信息。我们郑重承诺，您直接提交给我们的任何非公开信息或数据都为您所私有，我们不会向任何第三方披露该等信息或将该等信息用于任何第三方。我们的任何应用中收集、提交的数据也只会用于该应用的自身用途，而不会为其他任何应用所访问和使用。我们欢迎应用开发者、您或任何第三方提出关于如何保护人脸信息的建议，以对应用开发者和最终用户的隐私进行严格保密。
+\n5.2 终端用户个人信息的授权同意
+\n您理解并同意，基于为您和/或您的终端用户提供身份认证服务目的，我们需要收集、保存并以匿名性和不可识别的方式使用本产品/服务所获得的来自于您集成产品终端用户的个人信息。因此，您接受我们《隐私政策》并把我们的SDK集成到您的产品中，则表示您确认并保证：
+\na) 您已向终端用户进行披露和说明，并已经获得终端用户充分必要的授权、同意和许可，允许我们为全面履行产品/服务目的收集、存储、处理、使用和共享终端用户的必要个人信息。若您的产品是针对不满十四周岁的儿童设计和开发的，您应已采取必要的技术措施，保证已获得其监护人的授权、同意和许可。
+\nb) 您已经遵守并将持续遵守适用的法律、法规、国家标准、行业标准和监管要求，包括但不限于制定、公布及更新有关个人信息保护和隐私保护的相关政策，且您承诺在使用我们产品/服务期间，您与终端用户间适用的《隐私政策》不低于已向我们提供的内容中所约定的个人信息保护和隐私保护标准。
+\nc) 您承诺上述授权、同意和许可均合法有效，不会与您与第三方所签署的任何协议或文件构成冲突或构成对第三方权利的侵犯。
+\nd) 您已经向终端用户提供易于操作的信息主体权利实现机制，且您应当告知您的终端用户可以通过集成产品的终端设备行使退出/注销权，一旦终端用户行使该权利，其信息将不会被以任何形式进行收集处理，也不会频繁征求用户同意。
+        \n
+\n<b>6、未成年人隐私</b>
+\n我们将根据适用法律保护未成年人的隐私。我们的产品和服务主要面向成年人，未满十四岁的未成年人应在监护人的监督和指导下访问我们的网站，在监护人的陪同下阅读本隐私政策并确认，在向我们提交任何个人信息之前应取得监护人的同意再使用我们的产品和服务。
+\n如果您的产品是针对未成年人或涉及未成年人而设计和开发的，请务必确保您采取必要的技术手段，保证终端用户的注册和使用由未成年人的监护人进行。同时您已制定充分的用户协议和隐私政策履行告知义务。对于经监护人同意而收集未成年人个人信息的情况，我们只会在收到法律允许、父母或监护人明确同意或者保护儿童所必要情况下使用或公开披露。
+        \n
+\n<b>7、隐私政策适用范围</b>
+\n7.1 除某些特定服务外，我们所有的产品/服务均适用本《隐私政策》。某些特定服务将适用特定的隐私政策。针对某些特定服务的特定隐私政策，将更具体地说明我们在该等服务中如何使用您的信息。该特定服务的隐私政策构成本《隐私政策》的一部分。如相关特定服务的隐私政策与本《隐私政策》有不一致之处，适用该特定服务的隐私政策。
+\n7.2 关联公司
+\n本隐私政策中提及的关联公司为虹软科技股份有限公司（简称虹软科技），虹软科技仅将获取的信息使用在内部产品研发、技术提升上，并适用本隐私政策。
+        \n
+\n<b>8、外部链接</b>
+\n我们的平台可能含有第三方网站、产品和服务的链接。这些第三方网站、产品和服务并不受本隐私政策规制，该等第三方收集的信息须遵守其隐私措施。我们建议您审阅该等第三方的隐私声明，以了解他们的个人信息的收集、使用和披露程序。
+        \n
+\n<b>9、隐私政策的变更</b>
+\n我们有权根据服务和产品的变化、适用法律和政策的调整随时调整本政策。未经您明确同意，我们不会削减您按照本隐私政策所应享有的权利。本隐私政策的任何更新将以标注更新时间的方式或放置醒目的通知方式在本网站上提示，请随时查看和了解您应遵守的隐私政策。如果您不同意接受更新的隐私政策，请立即停止访问和使用我们的服务。
+        \n
+\n<b>10、联系我们</b>
+\n如果您对我们的隐私政策有任何疑问，请通过电子邮箱联系我们。
+        \n
+    </string>
+
+    <string name="whatsapp_your_whatsapp" translatable="false">WhatsApp: +19162702374</string>
+    <string name="telegram_your_telegram" translatable="false">Telegram: @Contact_MiniAiLive</string>
+    <string name="skype_your_skype_id" translatable="false">Skype: miniai_live@outlook.com</string>
+    <string name="email_your_email" translatable="false">Email: info@miniai.live</string>
+
+    <string name="copy_right" translatable="false">Copyrights © %1$d</string>
+</resources>

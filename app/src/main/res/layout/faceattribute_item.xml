@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/contentBodyColor">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardFace"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:cardElevation="16dp"
+        app:cardCornerRadius="100dp"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/iv_show"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:src="@drawable/faces"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/cardFace">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+
+            <!-- Age TextView with label and value -->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/rounded_background"
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age:"
+                    android:textSize="18dp"
+                    android:textColor="@color/color_white"
+                    android:padding="8dp"
+                    android:drawablePadding="8dp">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txtAge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="25"
+                    android:textSize="18dp"
+                    android:textColor="@color/color_white"
+                    android:padding="8dp"
+                    android:drawablePadding="8dp">
+                </TextView>
+            </LinearLayout>
+
+            <!-- Gender TextView with label and value -->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/rounded_background"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender:"
+                    android:textSize="18dp"
+                    android:textColor="@color/color_white"
+                    android:padding="8dp"
+                    android:drawablePadding="8dp">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txtGender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:textSize="18dp"
+                    android:textColor="@color/color_white"
+                    android:padding="8dp"
+                    android:drawablePadding="8dp">
+                </TextView>
+            </LinearLayout>
+
+            <!-- Liveness TextView with label and value -->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/rounded_background">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Liveness Score:"
+                    android:textSize="18dp"
+                    android:textColor="@color/color_white"
+                    android:padding="8dp"
+                    android:drawablePadding="8dp">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txtLiveness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0.83"
+                    android:textSize="18dp"
+                    android:textColor="@color/color_white"
+                    android:padding="8dp"
+                    android:drawablePadding="8dp">
+                </TextView>
+            </LinearLayout>
+
+            <!-- Quality TextView with label and value -->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/rounded_background">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Image Quality:"
+                    android:textSize="18dp"
+                    android:textColor="@color/color_white"
+                    android:padding="8dp"
+                    android:drawablePadding="8dp">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txtQuality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="High"
+                    android:textSize="18dp"
+                    android:textColor="@color/color_white"
+                    android:padding="8dp"
+                    android:drawablePadding="8dp">
+                </TextView>
+            </LinearLayout>
+
+            <!-- Luminance TextView with label and value -->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/rounded_background">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Luminance:"
+                    android:textSize="18dp"
+                    android:textColor="@color/color_white"
+                    android:padding="8dp"
+                    android:drawablePadding="8dp">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txtLuminance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="120 cd/m²"
+                    android:textSize="18dp"
+                    android:textColor="@color/color_white"
+                    android:padding="8dp"
+                    android:drawablePadding="8dp">
+                </TextView>
+            </LinearLayout>
+
+            <!-- Repeat this structure for other attributes as needed -->
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

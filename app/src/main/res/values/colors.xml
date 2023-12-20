@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0f0f07</color>
+    <color name="colorPrimaryDark">#0f0f07</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_bg_notification">#80000000</color>
+    <color name="color_bg_name">#80000000</color>
+    <color name="color_black">#0f0f07</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_green">#4CAF50</color>
+    <color name="color_red">#F44336</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF852C</color>
+    <color name="md_theme_dark_errorContainer">#8C1D18</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFFF0000</color>
+    <color name="md_theme_dark_inverseOnSurface">#313033</color>
+    <color name="md_theme_dark_onSurface">#E6E1E5</color>
+    <color name="md_theme_dark_onPrimaryContainer">#EADDFF</color>
+    <color name="md_theme_dark_surface">#1C1B1F</color>
+    <color name="md_theme_dark_scrim">#000000</color>
+    <color name="md_theme_dark_onTertiary">#492532</color>
+
+    <color name="bottomNavigationTextColor">#B2B2B2</color>
+    <color name="bottomNavigationTintColor">#B2B2B2</color>
+    <color name="bottomNavigationSelectedColor">#FC4926</color>
+    <color name="statusBarColor">#000</color>
+    <color name="whiteBodyColor">#FCFCFC</color>
+    <color name="darkTextColor">#020000</color>
+    <color name="primaryTextColor">#25C0DE</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="frutorial_title">#4c4c4c</color>
+
+    <!--colors for light mode-->
+    <color name="contentBodyColor">#D0BCFF</color>
+    <color name="contentTextColor">#FC4926</color>
+    <color name="bottomNavigationBackground">#F7F7F7</color>
+</resources>
