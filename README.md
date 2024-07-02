@@ -49,10 +49,10 @@ Please visit our Face API Web Demo here. https://demo.miniai.live
 ## Related Product
 No | Project | Feature
 ---|---|---|
-1 | [FaceRecognition-FaceLivenessDetection-Android-SDK](https://github.com/MiniAiLive/FaceRecognition-FaceLivenessDetection-Android-SDK) | Face Matching, 3D Face Passive Liveness
-2 | [FaceRecognition-FaceLivenessDetection-iOS-SDK](https://github.com/MiniAiLive/FaceRecognition-FaceLivenessDetection-iOS-SDK) | Face Matching, 3D Face Passive Liveness
-3 | [FaceRecognition-FaceLivenessDetection-Linux-SDK](https://github.com/MiniAiLive/FaceRecognition-FaceLivenessDetection-Linux-SDK) | Face Matching, 3D Face Passive Liveness
-4 | [FaceRecognition-FaceLivenessDetection-Windows-SDK](https://github.com/MiniAiLive/FaceRecognition-FaceLivenessDetection-Windows-SDK) | Face Matching, 3D Face Passive Liveness
+1 | [FaceRecognition-LivenessDetection-Android-SDK](https://github.com/MiniAiLive/FaceRecognition-LivenessDetection-Android-SDK) | Face Matching, 3D Face Passive Liveness
+2 | [FaceRecognition-LivenessDetection-iOS-SDK](https://github.com/MiniAiLive/FaceRecognition-LivenessDetection-iOS-SDK) | Face Matching, 3D Face Passive Liveness
+3 | [FaceRecognition-LivenessDetection-Linux-SDK](https://github.com/MiniAiLive/FaceRecognition-LivenessDetection-Linux-SDK) | Face Matching, 3D Face Passive Liveness
+4 | [FaceRecognition-LivenessDetection-Windows-SDK](https://github.com/MiniAiLive/FaceRecognition-LivenessDetection-Windows-SDK) | Face Matching, 3D Face Passive Liveness
 5 | [FaceLivenessDetection-Android-SDK](https://github.com/MiniAiLive/FaceLivenessDetection-Android-SDK) | 3D Face Passive Liveness
 6 | [FaceLivenessDetection-iOS-SDK](https://github.com/MiniAiLive/FaceLivenessDetection-iOS-SDK) | 3D Face Passive Liveness
 7 | [FaceLivenessDetection-Linux-SDK](https://github.com/MiniAiLive/FaceLivenessDetection-Linux-SDK) | 3D Face Passive Liveness
