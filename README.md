@@ -8,24 +8,11 @@
 Our SDK analyze a series of face related attributes including age, gender, smile intensity, head pose, eye status, emotion, mouth status, skin status, face image quality and blurriness.
 Feel free to use our Face Attributes Android SDK.
 
-## FaceSDK Download
-You need to add the model here. 
-```
-\FaceAttributes-Android\app\src\main\jniLibs\arm64-v8a\libminiai_face_engine.so
-```
-Please [contact US](https://www.miniai.live/contact/) to get the model weights.
+## Latest SDK Download [Here](https://drive.google.com/drive/folders/1P4YS78jcMqqcm3zukEWxDonIXbvh38pO?usp=drive_link)
 
 > **Note**
 >
 > SDK is fully on-premise, processing all happens on hosting server and no data leaves server.
-
-## Face Attributes Android APK
-
-<a href="https://play.google.com/store/apps/details?id=com.miniai.miniailivefaceattribute" target="_blank">
-  <img alt="" src="https://user-images.githubusercontent.com/125717930/230804673-17c99e7d-6a21-4a64-8b9e-a465142da148.png" height=80/>
-</a>
-
-https://github.com/MiniAiLive/MiniAI-Face-Attributes-AndroidSDK/assets/153516004/c171ecd2-b184-4ad9-a261-ed9bf85525de
 
 ## Request license
 Feel free to [Contact US](https://www.miniai.live/contact/)  to get a trial License. We are 24/7 online on [WhatsApp](https://wa.me/+19162702374).
